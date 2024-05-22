@@ -84,7 +84,7 @@ ul {
 
 .sign-up-one {
   background-color: #3882f6;
-  color: white;
+  color: #f9faf8;
   width: 90px;
   padding: 6px 18px;
   border: none;
@@ -157,12 +157,78 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 300px;
+  padding: 100px;
+  gap: 15px;
 }
 
 .quote {
   color: #1f2937;
   font-size: 36px;
   font-style: italic;
-  width: 700px;
+}
+
+.quote-author {
+  text-align: right;
+  width: 100%;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* ---------Section 4----------------- */
+
+.for-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9faf8;
+  padding: 100px 60px;
+}
+
+.cta {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 40px 60px;
+  border-radius: 7px;
+  gap: 60px;
+}
+
+.cta-par {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.action-title {
+  font-size: 35px;
+}
+
+.action-content {
+  font-size: 20px;
+}
+
+.sign-up-two {
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 90px;
+  padding: 6px 18px;
+  border: solid 1px #f9faf8;
+  border-radius: 4px;
+}
+
+/* ---------Section 4----------------- */
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  padding: 25px;
 }
